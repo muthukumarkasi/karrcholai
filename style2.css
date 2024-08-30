@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media screen and (min-width: 280px) and (max-width: 700px) {
+  .bg-gif {
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-image: url(/video/Eng-Karrcholai.gif);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 40vh;
+    opacity: 1;
+    visibility: inherit;
+    position: inherit;
+    z-index: 20;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+
+  .project-para {
+    margin-bottom: 0;
+  }
+
+  .bg-gif1 {
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-image: url(/video/Tam-Karrcholai.gif);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 40vh;
+    opacity: 1;
+    visibility: inherit;
+    position: inherit;
+    z-index: 20;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+
+  .about-us-sec {
+    height: 100%;
+  }
+
+  .img-house {
+    margin-top: 20px !important;
+  }
+
+  .sec {
+    height: 52vh;
+  }
+
+  .project-position {
+    top: 40%;
+    left: 19%;
+  }
+  .modernization-sec {
+   --bs-gutter-x: none !important;
+  }
+  .key-features-sec{
+    height: auto !important;
+  }
+  .testimonial {
+    height: 100%;
+  }
+  .carousel-control-next, .carousel-control-prev {
+    top: -50px !important;
+  }
+
+  .font-size-para {
+    font-size: xx-small;
+  }
+
+  .image-size {
+    width: 15% !important;
+  }
+
+  .footer-img {
+    width: 80%;
+    top: -15%;
+    left: 10%;
+    box-shadow: 20px 20px 20px rgba(23, 21, 21, 0.395);
+  }
+
+  .footer-padding {
+    padding-top: 4% !important;
+  }
+
+  .button-footer {
+    height: 39px;
+    background-color: #f9e2e3 !important;
+    color: #570b3d !important;
+    font-weight: 600 !important;
+    font-size: x-small !important;
+    left: 55%;
+    width: 45%;
+  }
+  .font-size-para-head {
+    font-size: medium !important;
+  }
+  
+
+  .email-div {
+    margin-left: 0px;
+    margin-top: 100%;
+  }
+
+  ::placeholder {
+    font-size: x-small !important;
+  }
+
+  .input-width {
+    width: 70% !important;
+  }
+
+  .star-width {
+    width: 90%;
+  }
+
+  .star-align {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .mobile-view-button {
+    width: 100%;
+    --bs-btn-padding-x: 0rem !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+  .completed-bg-img {
+    background-image: url(/images/karcholai\ English\ \(1\).png);
+    height: 40vh !important;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+  .completed-font-size {
+    font-size: large !important;
+  }
+  
+  .card-4D{
+    border: none !important;
+    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1) !important;
+    min-height: 450px !important;
+    min-width: 300px !important;
+}
+
+.loader-letter-position{
+  top: 60%;
+  left: 34%;
+}
+.loader-position {
+  top: 40%;
+  left: 35%;
+}
+
+}
+
+@media (max-width: 420px) {
+  .card-4D{
+      min-height: 300px !important;
+  }
+}
+@media (max-width: 768px) {
+  .card-4D {
+      min-height: 350px !important;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 992px) {
+  .bg-gif {
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-image: url(/video/Eng-Karrcholai.gif);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    opacity: 1;
+    visibility: inherit;
+    position: inherit;
+    z-index: 20;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+
+  .bg-gif1 {
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-image: url(/video/Tam-Karrcholai.gif);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    opacity: 1;
+    visibility: inherit;
+    position: inherit;
+    z-index: 20;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+
+  .about-us-sec {
+    height: 100%;
+  }
+
+  .img-house {
+    margin-top: 20px !important;
+  }
+
+  .sec {
+    height: 65vh;
+  }
+
+  .project-position {
+    top: 45%;
+    left: 22%;
+  }
+
+  .testimonial {
+   padding-top: 130rem;
+  }
+
+  .font-size-para {
+    font-size: xx-small;
+  }
+
+  .image-size {
+    width: 15% !important;
+  }
+
+  .footer-img {
+    width: 60%;
+    top: -15%;
+    left: 10%;
+    box-shadow: 20px 20px 20px rgba(23, 21, 21, 0.395);
+  }
+
+  .footer-padding {
+    padding-top: 4% !important;
+  }
+
+  .button-footer {
+    height: 39px;
+    background-color: #f9e2e3 !important;
+    color: #570b3d !important;
+    font-weight: 600 !important;
+    font-size: x-small !important;
+    left: 55%;
+    width: 45%;
+  }
+
+  .email-div {
+    margin-left: 0px;
+    margin-top: 70%;
+  }
+
+  ::placeholder {
+    font-size: x-small !important;
+  }
+
+  .input-width {
+    width: 70% !important;
+  }
+
+  .star-width {
+    width: 90%;
+  }
+
+  .star-align {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .mobile-view-button {
+    width: 100%;
+    --bs-btn-padding-x: 0rem !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+  .completed-bg-img {
+    background-image: url(/images/karcholai\ English\ \(1\).png);
+    height: 40vh !important;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+  .completed-font-size {
+    font-size: large !important;
+  }
+  .loader-letter-position{
+    top: 63%;
+    left: 46%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  .testimonial {
+    padding-top: 30%;
+    padding-bottom: 8%;
+}
+.loader-letter-position{
+  top: 64%;
+  left: 46%;
+}
+.star-align1{
+  padding-top:10%;
+ }
+
+}
+@media screen and (min-width: 1024px) and (max-width:1440px){
+.xxlgescreen{
+ margin-left: 0% !important;
+ margin-right: 0% !important;
+}
+ .footer-img {
+  width: 80%;
+  top: -15%;
+  left: 2%;
+  box-shadow: 20px 20px 20px rgba(23, 21, 21, 0.395);
+}
+
+
+}
+@media screen and (min-width: 1440px) and (max-width:1875px){
+  .xxlgescreen{
+   margin-left: 0% !important;
+   margin-right: 0% !important;
+  }
+   .footer-img {
+    width: 62%;
+    top: -10%;
+    left: 2%;
+    box-shadow: 20px 20px 20px rgba(23, 21, 21, 0.395);
+  }
+  .email-div {
+    margin-left: 0px;
+    margin-top: 100%;
+  }
+  .input-width {
+    width: 47% !important;
+}
+
+}
+@media screen and (min-width: 1875px) and (max-width:2000px){
+  .xxlgescreen{
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+   }
+    .footer-img {
+     width: 62%;
+     top: -10%;
+     left: 2%;
+     box-shadow: 20px 20px 20px rgba(23, 21, 21, 0.395);
+   }
+   .email-div {
+     margin-left: 0px;
+     margin-top: 100%;
+   }
+   .input-width {
+     width: 47% !important;
+ }
+ .about-us-sec {
+  height: 70vh !important;
+}
+.testimonial {
+  padding-top: 0%;
+  padding-bottom: 8%;
+}
+ .star-margin{
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+ 
+}
+
+.completed-font-size {
+  font-size: xx-large;
+}
+
+.navbar-toggler span {
+  display: block;
+  background-color: #c60808;
+  height: 3px;
+  width: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  left: 0;
+  opacity: 1;
+  transition: all 0.35s ease-out;
+  transform-origin: center left;
+}
+
+.navbar-toggler span:nth-child(1) {
+  margin-top: 0.3em;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+  transform: translate(15%, -33%) rotate(45deg);
+}
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+  opacity: 0;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+  transform: translate(15%, 33%) rotate(-45deg);
+}
+
+.navbar-toggler span:nth-child(1) {
+  transform: translate(0%, 0%) rotate(0deg);
+}
+
+.navbar-toggler span:nth-child(2) {
+  opacity: 1;
+}
+
+.navbar-toggler span:nth-child(3) {
+  transform: translate(0%, 0%) rotate(0deg);
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.location-img {
+  width: 30px;
+  height: 30px;
+  margin-top: 7px;
+}
+.key-features-sec{
+  height: 70vh;
+}
+.card-shadow {
+  box-shadow: 20px 20px 20px rgba(23, 21, 21, 0.395);
+}
+
+.completed-bg-img {
+  background-image: url(/images/karcholai\ English\ \(1\).png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+}
+.font-size-para-head {
+  font-size: x-large;
+}
+
+
+.circle-btn{
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.Quick-link{
+ gap: 1rem;
+}
+
+
+  
+

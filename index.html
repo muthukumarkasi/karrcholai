@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karrcholai</title>
+    <link rel="icon" type="image/png" href="/images/Karcholai-RGB.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="Completed-projects.html">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader">
+        <div class="position-absolute loader-position">
+            <img class="img-fluid " style="height: 100px; width: 100px;" src="/images/Karcholai-RGB.jpg" alt>
+        </div>
+        <div class="position-absolute loader-letter-position">
+            <p class="fs-4 text-white welcome">WELCOME</p>
+        </div>
+    </div>
+
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+        <section>
+            <button type="button" class="btn  btn-floating btn-lg" id="btn-back-to-top">
+                <i class="fa-solid fa-angle-up fa-sm" style="color: #c31616;"></i>
+            </button>
+        </section>
+
+        <section>
+
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active " id="HOME" data-bs-interval="000">
+                        <div class="bg-gif"></div>
+
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="000">
+                        <div class="bg-gif1"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div>
+                <div>
+
+                    <nav class="navbar navbar-expand-lg ">
+                        <div class="container-fluid nav-position top-0">
+                            <img width="140" src="/images/karcholai-txt.png" alt>
+
+                            <button class="navbar-toggler collapsed 
+                             border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <a class="navbar-toggler collapsed border-0" type="button" data-toggle="collapse"
+                                    data-target="#navbarNavDropdown">
+                                    <span> </span>
+                                    <span> </span>
+                                    <span> </span>
+                                </a>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-center " id="navbarNavDropdown">
+                                <ul class="navbar-nav p-2 ">
+                                    <li class="nav-item d-lg-flex justify-content-lg-center">
+                                        <a class="nav-link ps-lg-4 mt-2 fw-bold
+                                        
+                                        " href="#HOME">HOME</a>
+                                    </li>
+
+                                    <li class="nav-item d-lg-flex justify-content-lg-center">
+                                        <a class="nav-link ps-lg-4 mt-2 fw-bold
+                                        
+                                        " href="#about_us">ABOUT US </a>
+                                    </li>
+                                    <li class="nav-item d-lg-flex justify-content-lg-center">
+                                        <a class="nav-link ps-lg-4 mt-2 fw-bold
+                                        
+                                        " href="#MODERNIZATION"> MODERNIZATION </a>
+                                    </li>
+
+                                 
+                                    <div class="dropdown">
+                                        <button
+                                            class="btn border-0  drop-btn mobile-view-button d-flex justify-content-lg-center align-items-center"
+                                            id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+
+                                            <a class="nav-link" href="#RESIDENTIAL">RESIDENTIAL</a>
+                                            <i class="fa-solid fa-angle-down fa-sm  rotate-icon"
+                                                style="color: #973131;"></i>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <li><a class="dropdown-item" href="/Completed-projects.html">Completed
+                                                    Projects</a></li>
+                                            <li><a class="dropdown-item" href="/Ongoing-projects.html">Ongoing
+                                                    Projects</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="/Upcoming-projects.html">Upcoming
+                                                    Projects</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </ul>
+                            </div>
+
+                            <button
+                                class="collapse navbar-collapse  btn-change btn-outline-danger fs-6  ms-lg-4 mt-sm-2  pt-2 pb-2 ps-4 pe-4  fw-bold"
+                                id="navbarNavDropdown" data-bs-toggle="modal" data-bs-target="#exampleModal">CONTACT US
+                                 </button>
+                           
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header text-center ">
+                                            <h1 class="modal-title  fs-5" id="exampleModalLabel">Contact us</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class=" modal-body text-center font1">
+                                            <p>
+                                                <i class="fa-solid fa-phone fa-sm" style="color: #c21010;"></i> : +91
+                                                97414
+                                                16747
+                                            </p>
+                                            <p> <i class="fa-solid fa-envelope fa-sm" style="color: #d32828;"></i> :
+                                                karrcholai@gmail.com
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                </nav>
+            </div>
+    </div>
+    </section>
+    <section class="about-us-sec">
+        <div class="fs-1 fw-semibold mb-5 d-flex justify-content-center " id="about_us">
+            <p class="heading-font">ABOUT US</p>
+        </div>
+        <div class="container position-static">
+            <div class="row h-100">
+                <div class="col-lg-6">
+                    <p class="fs-4 about_color fw-bold heading-font">
+                        ABOUT KARRCHOLAI</p>
+                    <div class="border-line">
+
+                    </div>
+                    <p class="mt-3">
+                        Established in 2019, brings together a passion for
+                        timeless craftsmanship and innovative design. As a
+                        premier residential construction company, we specialize
+                        in building homes that seamlessly blend traditional
+                        charm with modern convenience
+                    </p>
+                    <div class="overflow-hidden" style="height: 65%;">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item ">
+                                <h2 class="accordion-header " id="headingOne">
+                                    <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <i class="fa-solid fa-house fa-sm me-lg-3" style="color: #bd2f2f;"></i>
+                                        Who we are
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+
+
+                                        At KARRCHOLAI Construction, we aim to redefine home. Inspired by traditional
+                                        architecture and modern design, we create spaces that resonate with the soul
+                                        and
+                                        embrace the future.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <i class="fa-solid fa-house fa-sm me-lg-3" style="color: #bd2f2f;"></i>
+                                        Our Culture
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        We believe every home tells a story. With meticulous attention to detail and
+                                        a
+                                        commitment to excellence, we use carefully selected materials and skilled
+                                        craftsmanship in every project. Building your dream home is a collaborative
+                                        process, and we work closely with clients from design to final touches to
+                                        bring
+                                        your vision to life.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <i class="fa-solid fa-house fa-sm me-lg-3" style="color: #bd2f2f;"></i>
+                                        Our Commitment
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        As stewards of the environment, we prioritize sustainable building
+                                        practices.
+                                        Using energy-efficient designs and eco-friendly materials, we ensure style
+                                        and
+                                        comfort without compromising sustainability.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 img-house">
+                    <img class="w-100" src="./images/1718890895670.JPEG" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="star-align star-align1  star-margin  ">
+        <div class=" star-width mt-5 mb-5 ms-lg-5 me-lg-5  ">
+
+            <div class="ticker-star-inner image">
+                <div class="w-50 border border-dark stare-margin{
+                    margin-left: 12%;
+                  } opacity-25"></div>
+                <div class="rotating-image">
+                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                            fill=" #a3a6ab" />
+                    </svg>
+                </div>
+                </svg>
+                <div class="rotating-image">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M15 0L15.2216 0.59884C17.6524 7.1681 22.8319 12.3476 29.4012 14.7784L30 15L29.4012 15.2216C22.8319 17.6524 17.6524 22.8319 15.2216 29.4012L15 30L14.7784 29.4012C12.3476 22.8319 7.1681 17.6524 0.59884 15.2216L0 15L0.598839 14.7784C7.1681 12.3476 12.3476 7.1681 14.7784 0.598839L15 0Z"
+                            fill="#a3a6ab" />
+
+                    </svg>
+
+                </div>
+                <div class="rotating-image">
+                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                            fill=" #a3a6ab" />
+                    </svg>
+                </div>
+
+                <div class="w-50 border border-dark  opacity-25"></div>
+            </div>
+
+        </div>
+    </section>
+    <section class="logo h-75 d-flex flex-column justify-content-center align-items-center">
+
+        <div class="fs-1 fw-semibold mb-lg-5">
+            <p class="heading-font">RESIDENTIAL</p>
+        </div>
+        <div class="container scroll">
+            <div class="sec" id="section1" data-speed="8" data-type="background">
+                <div class="container position-relative">
+                    <a href="Completed-projects.html">
+                        <div
+                            class="text-white position-absolute completed-font-size bg-blur-content d-flex justify-content-center align-items-center project-position">
+                            <p class="project-para heading-font">Completed Projects</p>
+                        </div>
+                    </a>
+
+                    <img class="img-fluid w-100" id="Completed Projects" src="/images/pic-1.jpg" alt>
+
+                </div>
+            </div>
+        </div>
+        <div class="sec" id="section2" data-speed="4" data-type="background">
+            <div class="container position-relative">
+                <a href="Ongoing-projects.html">
+                    <div
+                        class="text-white position-absolute completed-font-size bg-blur-content d-flex justify-content-center align-items-center project-position">
+                        <p class="project-para heading-font">Ongoing Projects</p>
+                    </div>
+                </a>
+                <img class="img-fluid w-100" id="Ongoing Projects" src="/images/pic-2.jpg" alt>
+            </div>
+        </div>
+        <div class="sec" id="section3" data-speed="2" data-type="background">
+            <div class="container position-relative">
+                <a href="Upcoming-projects.html">
+                    <div
+                        class="text-white position-absolute completed-font-size  d-flex justify-content-center align-items-center bg-blur-content project-position">
+                        <p class="project-para heading-font">Upcoming Projects</p>
+                    </div>
+                </a>
+                <img class="img-fluid w-100" id="Upcoming Projects" src="/images/pic-3.jpg" alt>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="star-align star-margin">
+        <div class=" star-width mt-5 mb-lg-5 ms-lg-5 pt-lg-5 me-lg-5">
+            <div class="ticker-star-inner image">
+                <div class="w-50 border border-dark opacity-25"></div>
+                <div class="rotating-image">
+                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                            fill=" #a3a6ab" />
+                    </svg>
+                </div>
+                </svg>
+                <div class="rotating-image">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M15 0L15.2216 0.59884C17.6524 7.1681 22.8319 12.3476 29.4012 14.7784L30 15L29.4012 15.2216C22.8319 17.6524 17.6524 22.8319 15.2216 29.4012L15 30L14.7784 29.4012C12.3476 22.8319 7.1681 17.6524 0.59884 15.2216L0 15L0.598839 14.7784C7.1681 12.3476 12.3476 7.1681 14.7784 0.598839L15 0Z"
+                            fill="#a3a6ab" />
+                    </svg>
+                </div>
+                <div class="rotating-image">
+                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                            fill=" #a3a6ab" />
+                    </svg>
+                </div>
+                <div class="w-50 border border-dark   opacity-25"></div>
+            </div>
+        </div>
+    </section>
+  
+
+    <section class="wrapper">
+        <div class="container modernization-sec">
+            <div class="row">
+                <div class="col text-center mb-5">
+                    <div class="fs-1 fw-semibold mb-lg-5 d-flex justify-content-center" id="MODERNIZATION">
+                        <p class="heading-font">MODERNIZATION</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card text-dark card-has-bg click-col"
+                        style="background-image:url('images/eee0d568-a7e4-4b6e-9751-45a5f3cbc7c2.jpg');">
+                        <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street"
+                            alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <div class="card-body">
+                               
+                            </div>
+                            <div class="card-footer">
+                                <div class="media">
+                                    <div class="media-body">
+                                        <p class="my-0  d-block font-size heading-font">Architect Design</p>
+                                    </div>
+                                    <img class="mr-3" src="/images/5-stars.png" alt="Generic placeholder image"
+                                        style="max-width:50px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card text-dark card-has-bg click-col"
+                        style="background-image:url('/images/225849d5-4791-4d41-9776-c4e51494acdb.jpg');">
+                        <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tree,nature"
+                            alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <div class="card-body">
+                                
+                            </div>
+                            <div class="card-footer">
+                                <div class="media">
+                                    <div class="media-body">
+                                        <p class="my-0  d-block font-size heading-font">Renovation</p>
+                                    </div>
+                                    <img class="mr-3" src="/images/5-stars.png" alt="Generic placeholder image"
+                                        style="max-width:50px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card text-dark card-has-bg click-col"
+                        style="background-image:url('/images/c3bcddf5-3fe4-4dc3-8bac-52aadbce707a.jpg');">
+                        <img class="card-img d-none" src="https://source.unsplash.com/600x900/?computer,design"
+                            alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <div class="card-body">
+                     
+                            </div>
+                            <div class="card-footer">
+                                <div class="media">
+                                    <div class="media-body">
+                                        <p class="my-0  d-block font-size heading-font">Landscape</p>
+                                    </div>
+                                    <img class="mr-3" src="/images/5-stars.png" alt="Generic placeholder image"
+                                        style="max-width:50px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card text-dark card-has-bg click-col"
+                        style="background-image:url('/images/cad2b781-73b3-4eed-a2c4-f70b61ffef5e.jpg');">
+                        <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street"
+                            alt=" Lorem Ipsum Sit Amet Consectetur dipisi?">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <div class="card-body">
+                             
+                            </div>
+                            <div class="card-footer">
+                                <div class="media">
+
+                                    <div class="media-body">
+                                        <p class="my-0  d-block font-size heading-font">Planning and consultant</p>
+                                    </div>
+                                    <img class="mr-3" src="/images/5-stars.png" alt="Generic placeholder image"
+                                        style="max-width:50px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card text-dark card-has-bg click-col"
+                        style="background-image:url('/images/rainfilter.jpg');">
+                        <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tree,nature"
+                            alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <div class="card-body">
+                               
+                            </div>
+                            <div class="card-footer">
+                                <div class="media">
+                                    <div class="media-body">
+                                        <p class="my-0  d-block font-size heading-font">Rainwater harvesting </p>
+                                    </div>
+                                    <img class="mr-3" src="/images/5-stars.png" alt="Generic placeholder image"
+                                        style="max-width:50px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card text-dark card-has-bg click-col"
+                        style="background-image:url('/images/Vastu\ Shastra.png');">
+                        <img class="card-img d-none" src="https://source.unsplash.com/600x900/?computer,design"
+                            alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <div class="card-body">
+                              
+                            </div>
+                            <div class="card-footer">
+                                <div class="media">
+                                    <div class="media-body">
+                                        <p class="my-0  d-block font-size heading-font">Vastu Sasthra</p>
+                                    </div>
+                                    <img class="mr-3" src="/images/5-stars.png" alt="Generic placeholder image"
+                                        style="max-width:50px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card-width">
+                <div class="card text-dark card-has-bg click-col" style="background-image:url('images/2\ \(1\).jpg');">
+                    <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tree,nature"
+                        alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?">
+                    <div class="card-img-overlay d-flex flex-column">
+                        <div class="card-body">
+                          
+                        </div>
+                        <div class="card-footer">
+                            <div class="media">
+                                <div class="media-body">
+                                    <p class="my-0  d-block font-size heading-font">Interior Design</p>
+                                </div>
+                                <img class="mr-3" src="/images/5-stars.png" alt="Generic placeholder image"
+                                    style="max-width:50px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="star-align star-margin">
+        <div class="star-width mt-lg-5 mb-5 ms-lg-5 pt-lg-5 me-lg-5">
+
+            <div class="ticker-star-inner image">
+                <div class="w-50 border border-dark opacity-25"></div>
+                <div class="rotating-image">
+                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                            fill=" #a3a6ab" />
+                    </svg>
+                </div>
+                </svg>
+                <div class="rotating-image">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M15 0L15.2216 0.59884C17.6524 7.1681 22.8319 12.3476 29.4012 14.7784L30 15L29.4012 15.2216C22.8319 17.6524 17.6524 22.8319 15.2216 29.4012L15 30L14.7784 29.4012C12.3476 22.8319 7.1681 17.6524 0.59884 15.2216L0 15L0.598839 14.7784C7.1681 12.3476 12.3476 7.1681 14.7784 0.598839L15 0Z"
+                            fill="#a3a6ab" />
+
+                    </svg>
+
+                </div>
+                <div class="rotating-image">
+                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                            fill=" #a3a6ab" />
+                    </svg>
+                </div>
+
+                <div class="w-50 border border-dark  opacity-25"></div>
+            </div>
+
+        </div>
+    </section>
+    <section class="container key-features-sec">
+        <div class="d-flex justify-content-between">
+            <div>
+                <p class="fs-4 fw-bold heading-font" id="keyFeaturesTitle"> Key Features</p>
+                <p id="keyFeaturesSubtitle">Experience the customer-first approach with us. Your priority is our
+                    priority.</p>
+            </div>
+            <div><button id="toggleTextButton"
+                    class="btn btn-primary mb-4 d-flex justify-content-between bg-white text-primary">
+                    <p class="heading-font mb-0">Translate</p> <img class="w-25" src="/images/Translate.svg" alt="">
+                </button></div>
+        </div>
+        <div class="row d-flex justify-content-evenly">
+            <div class="col-lg-3  pt-5">
+                <div class="div-bg-color p-3  h-100">
+                    <div class="d-flex justify-content-center ">
+                        <img class="rounded-pill w-50" src="/images/customer centric.svg" alt="">
+                    </div>
+                    <div class="d-flex flex-column justify-content-center text-center align-items-center">
+                        <p class="fw-bold div-text-color pt-2 heading-font" id="feature1Title">Customer-Centric Approach
+                        </p>
+                        <p id="feature1Text">Provide personalized services and responsive support to ensure client
+                            satisfaction and strong relationships.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 pt-5">
+                <div class="div-bg-color p-3 h-100">
+                    <div class="d-flex justify-content-center">
+                        <img class="rounded-pill w-50" src="/images/sustainable.svg" alt="">
+                    </div>
+                    <div class="d-flex flex-column justify-content-center text-center align-items-center">
+                        <p class="fw-bold div-text-color d-flex align-items-center pt-2 heading-font"
+                            id="feature2Title">Sustainable
+                            Building Practices</p>
+                        <p id="feature2Text">Implementing eco-friendly materials and energy-efficient designs to
+                            minimize environmental impact.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 pt-5">
+                <div class="div-bg-color p-3 h-100">
+                    <div class="d-flex justify-content-center">
+                        <img class="rounded-pill w-50" src="/images/quality.svg" alt="">
+                    </div>
+                    <div class="d-flex flex-column justify-content-center text-center align-items-center">
+                        <p class="fw-bold div-text-color pt-2 heading-font" id="feature3Title">Quality Craftsmanship</p>
+                        <p class="pt-lg-4" id="feature3Text">Ensuring high standards of construction quality and
+                            attention to detail in every project.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 pt-5">
+                <div class="div-bg-color p-3 h-100">
+                    <div class="d-flex justify-content-center ">
+                        <img class="rounded-pill w-50 " src="/images/innovative.svg" alt="">
+                    </div>
+                    <div class="d-flex flex-column justify-content-center text-center align-items-center">
+                        <p class="fw-bold div-text-color pt-2 heading-font" id="feature4Title">Innovative Design
+                            Solutions</p>
+                        <p id="feature4Text">Offering unique and creative architectural designs that blend aesthetics
+                            with functionality.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class=" d-flex flex-column align-items-center justify-content-center testimonial ">
+        <div class="d-flex justify-content-center align-items-center flex-column  ">
+            <p class="fw-bold fs-1 heading-font ">
+                Our Testimonial
+            </p>
+        </div>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex flex-column align-items-center justify-content-center">
+                        <p class="fw-bold  font-size-para-head heading-font">
+                            Mrs.Naatrayan Karthiga Devi
+                        </p>
+                        <p class="w-75 font-size-para text-center">
+                            "We entrusted KARRCHOLAI with The team's dedication to quality craftsmanship and attention
+                            to detail truly shines through in every corner of our home. Thank you for turning our house
+                            into a haven!"
+                        </p>
+                     
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex flex-column align-items-center justify-content-center">
+                        <p class="fw-bold font-size-para-head heading-font">
+
+                            Mrs. Mohanraj Priya
+                        </p>
+                        <p class="w-75 font-size-para text-center">
+                            "Choosing KARRCHOLAI for our building renovation was the best decision we made! With their
+                            expertise in Vastu alterations and their commitment to quality. Thank you for giving our
+                            building a new lease on life!"
+                        </p>
+                       
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex flex-column align-items-center justify-content-center">
+                        <p class="fw-bold  font-size-para-head heading-font">
+                            Mrs.Elumalai Mohanavalli
+                        </p>
+                        <p class="w-75 font-size-para text-center">
+                            "The KARRCHOLAI team impressed with their professionalism and dedication. From the initial
+                            planning stages to the ongoing execution, they have demonstrated a keen eye for detail and a
+                            commitment to excellence."
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="prev-icon" aria-hidden="true"><i class="fa-solid fa-chevron-left fa-2xl"
+                        style="color: #d9cb30;"></i></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="next-icon" aria-hidden="true"><i class="fa-solid fa-chevron-right fa-2xl"
+                        style="color: #d9cb30;"></i></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    
+    <section class="container-fluid mt-5">
+        <footer>
+            <div class="row footer-bg-color">
+                <div class="col-lg-4 position-relative ">
+                    <img class="footer-img  position-absolute" src="./images/Karcholai-RGB.jpg" alt="">
+                </div>
+                <div class="col-lg-8">
+                    <div class=" mb-3 mt-lg-5 email-div d-flex position-relative ">
+                        <input type="text" class="form-control input-width " id="formGroupExampleInput"
+                            placeholder="Your e-mail" style="border-radius: 50px;">
+                        <button
+                            class="btn btn-outline-light position-absolute button-footer  rounded-pill ps-5 pe-5 ">Subscribe
+                            Now !
+                        </button>
+                    </div>
+                    <div class="row d-flex justify-content-lg-start container">
+                        <div class="col-lg-4">
+                            <div class="pt-lg-3 footer-padding  ">
+                                <p class=" fs-4 fw-medium text_color d-flex justify-content-lg-start heading-font">Quick
+                                    Link</p>
+                                <div class="d-lg-flex justify-content-lg-start">
+                                    <ul class="list-unstyled d-flex flex-column Quick-link  font ">
+                                        <li> <a class="text-decoration-none   font" href="#">Home </a></li>
+                                        <li class=""> <a class="text-decoration-none  font" href="#">About
+                                                us</a>
+                                        </li>
+                                        <li class=""><a class="text-decoration-none  font" href="#">
+                                                Residential</a>
+                                        </li>
+                                        <li class=""><a class="text-decoration-none  font" href="#">
+                                                Modernization</a></li>
+                                        <li class=""><a class="text-decoration-none font" href="#">Contact
+                                                Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="pt-lg-3 text_align">
+                                <p class="fs-4  fw-medium  text_color heading-font">
+                                    Contact Info
+                                </p>
+                                <p class=" font   ">
+                                    <i class="fa-solid fa-phone fa-sm" style="color: #f7f4f4;"></i> : +91 97414
+                                    16747
+                                </p>
+                                <p class="font ">
+                                    <i class="fa-solid fa-envelope fa-sm" style="color: #ddd9d9;"></i> :
+                                    karrcholai@gmail.com
+                                </p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="border-line1">
+
+                            </div>
+                        </div>
+                        <div class="row mt-lg-3">
+                            <div class="col-lg-6 ">
+                                <div class="text-white fw-bold ms-lg-1 text_align">
+                                    © 2024 company,Inc
+                                </div>
+                            </div>
+                            <div class="col-lg-6 ">
+                                <div class=" d-flex justify-content-lg-end align-items-center ">
+                                    <ul class="list-unstyled d-flex">
+                                        <li> <a href="#"><i class="fa-brands fa-twitter fa-sm"
+                                                    style="color: #ffffff;"></i></a></li>
+                                        <li class="ms-4 "> <a href="#"><i class="fa-brands fa-facebook-f fa-sm "
+                                                    style="color: #ffffff;"></i></a></li>
+                                        <li class="ms-4"> <a href="#"> <i class="fa-brands fa-linkedin-in fa-sm"
+                                                    style="color: #ffffff;"></i></a></li>
+                                        <li class="ms-4"> <a href="#"> <i class="fa-brands fa-youtube fa-sm"
+                                                    style="color: #ffffff;"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    </div>
+    <script src="/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
