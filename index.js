@@ -1,7 +1,7 @@
 var myVar;
 
 function myFunction() {
-  myVar = setTimeout(showPage, 1000);
+  myVar = setTimeout(showPage, 1000); 
 }
 
 function showPage() {
@@ -9,25 +9,26 @@ function showPage() {
   document.getElementById("myDiv").style.display = "block";
 }
 
-  //Get the button
-  let mybutton = document.getElementById("btn-back-to-top");
 
-  // When the user scrolls down 20px from the top of the document, show the button
-  window.onscroll = function () {
-      scrollFunction();
-  };
+let mybutton = document.getElementById("btn-back-to-top");
 
-  function scrollFunction() {
-      if (
-          document.body.scrollTop > 20 ||
-          document.documentElement.scrollTop > 20
-      ) {
-          mybutton.style.display = "block";
-      } else {
-          mybutton.style.display = "none";
-      }
+
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 20 ||
+    document.documentElement.scrollTop > 20
+  ) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
   }
-  // When the user clicks on the button, scroll to the top of the document
+}
+
+  
   mybutton.addEventListener("click", backToTop);
 
   function backToTop() {
@@ -91,14 +92,38 @@ document.getElementById('toggleTextButton').addEventListener('click', function (
 
 
 document.addEventListener("DOMContentLoaded", function() {
-  // Initially, hide scrollbar during the loading phase
+  
   document.body.classList.add("no-scroll");
 
-  // Simulate loader finish (replace this with your actual loader code)
+  
   setTimeout(function() {
-      // Remove the class that hides the scrollbar after the loader is gone
+   
       document.body.classList.remove("no-scroll");
-  }, 5000); // Adjust the time to match your loader duration
+  },3000); 
 });
 
+        // Function to hide all cards
+        function hideAllCards() {
+          const allCards = document.querySelectorAll('.card1');
+          allCards.forEach(card1 => {
+            card1.style.display = 'none';  // Hide all cards
+          });
+        }
+    
+        // Event listeners for buttons
+        document.getElementById('projectButton').addEventListener('click', function() {
+          hideAllCards();  // Hide all cards
+          document.getElementById('projectCard').style.display = 'block';  // Show Project card
+        });
+    
+        document.getElementById('designButton').addEventListener('click', function() {
+          hideAllCards();  // Hide all cards
+          document.getElementById('designCard').style.display = 'block';  // Show Design card
+        });
+    
+        document.getElementById('marketingButton').addEventListener('click', function() {
+          hideAllCards();  // Hide all cards
+          document.getElementById('marketingCard').style.display = 'block';  // Show Marketing card
+        });
+      
 

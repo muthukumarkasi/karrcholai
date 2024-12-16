@@ -4,11 +4,11 @@
   .bg-gif {
     background-color: rgba(0, 0, 0, 0);
     background-repeat: no-repeat;
-    background-image: url(/video/Eng-Karrcholai.gif);
+    background-image: url(/images/karcholai\ English\ \(1\).png);
     background-size: cover;
     background-position: center center;
     width: 100%;
-    height: 40vh;
+    height: 90vh;
     opacity: 1;
     visibility: inherit;
     position: inherit;
@@ -23,11 +23,11 @@
   .bg-gif1 {
     background-color: rgba(0, 0, 0, 0);
     background-repeat: no-repeat;
-    background-image: url(/video/Tam-Karrcholai.gif);
+    background-image: url(/images/Karcholai\ tamil\ \(1\).png);
     background-size: cover;
     background-position: center center;
     width: 100%;
-    height: 40vh;
+    height: 90vh;
     opacity: 1;
     visibility: inherit;
     position: inherit;
@@ -168,7 +168,7 @@
   .bg-gif {
     background-color: rgba(0, 0, 0, 0);
     background-repeat: no-repeat;
-    background-image: url(/video/Eng-Karrcholai.gif);
+    background-image: url(/images/karcholai\ English\ \(1\).png);
     background-size: cover;
     background-position: center center;
     width: 100%;
@@ -183,7 +183,7 @@
   .bg-gif1 {
     background-color: rgba(0, 0, 0, 0);
     background-repeat: no-repeat;
-    background-image: url(/video/Tam-Karrcholai.gif);
+    background-image: url(/images/Karcholai\ tamil\ \(1\).png);
     background-size: cover;
     background-position: center center;
     width: 100%;
@@ -449,6 +449,8 @@
 .Quick-link{
  gap: 1rem;
 }
+
+
 
 
   
